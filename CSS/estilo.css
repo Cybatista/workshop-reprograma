@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0 auto;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+
+
+.banner {
+    background-image: url('../img_workshop/img/0b8ee222-70b8-4433-a1f9-91f33e5c552b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    padding-top: 20vh;
+    border-radius: 10px;
+}
+
+.banner p, h1 {
+color: darksalmon;
+font-size: 40px;
+}
+
+.banner p {
+    margin-bottom: 30px;
+}
+.banner a {
+    color: darksalmon;
+    text-decoration: unset;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+
+}
+
+.banner a:hover {
+    background-color:sandybrown; color: antiquewhite;
+}
+
+/* SOBRE MIM */
+
+
+
+.sobre-mim p {
+    text-align: justify;
+}
+
+.sobre-mim a:hover {
+    background-color:sandybrown; color: antiquewhite;   
+}
+
+.sobre-mim, .redes-sociais {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.minhas-habilidades {
+    display: flex;
+}
+
+.minhas-habilidades_sobre, .minhas-habilidades_ítens {
+    max-width: 50%;
+}
+
+.minhas-habilidades_ítens {
+    margin-left: 10%;
+}
+
+/* REDES SOCIAIS */
+
+.redes-sociais_ítens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redes-sociais_Facebook, .redes-sociais_Linkedin, .redes-sociais_twitter, .redes-sociais_Github {
+    background-color: antiquewhite;
+    color: darksalmon;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.redes-sociais_ítens a {
+    text-decoration: unset;
+}
+
+.redes-sociais_ítens img {
+    /*max-width: 55px; */
+    min-height: 50px;
+}
+
+.redes-sociais_ítens a :hover {
+    background-color:sandybrown; color: antiquewhite;   
+}
+
+/*Contatos*/
+.contatos   {
+    color: black;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.contatos a {
+    font-weight: bold;
+    margin-bottom: 30px;   
+    text-decoration: unset;
+    color: darksalmon;
+    text-decoration: unset;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    }
+
+    .contatos a:hover {
+        background-color:sandybrown; color: antiquewhite;
+    }
+
+.contatos img  {
+    width: 32px;
+    height: 32px;
+}
+
+.contatos a {
+    text-decoration: unset;
+}
+
+
+/*footer */
+
+footer p {
+    text-align: center;
+    background-color: antiquewhite;
+    color: darksalmon;
+    margin: 0;
+    padding: 20px 0;
+}
+
+
